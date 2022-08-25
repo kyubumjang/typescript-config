@@ -1,0 +1,24 @@
+{
+	"name": "typescript-config",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.35.1",
+		"@typescript-eslint/parser": "^5.35.1",
+		"eslint": "^8.0.1",
+		"eslint-config-standard-with-typescript": "^22.0.0",
+		"eslint-plugin-import": "^2.25.2",
+		"eslint-plugin-n": "^15.0.0",
+		"eslint-plugin-promise": "^6.0.0",
+		"parcel-bundler": "^1.12.5",
+		"typescript": "^4.7.4"
+	},
+	"scripts": {
+		"dev": "parcel ./src/index.html",
+		"build": "parcel build ./src/index.html"
+	},
+	"dependencies": {
+		"prettier": "^2.7.1"
+	}
+}
